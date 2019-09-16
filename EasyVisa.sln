@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVisa.BusinessLayer", "EasyVisa.BusinessLayer\EasyVisa.BusinessLayer.csproj", "{C90F2E62-2CC2-4F71-B07B-FDFC1218065F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyVisa.BusinessLayer", "EasyVisa.BusinessLayer\EasyVisa.BusinessLayer.csproj", "{C90F2E62-2CC2-4F71-B07B-FDFC1218065F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVisa.Common", "EasyVisa.Common\EasyVisa.Common.csproj", "{968BEAFB-401C-4B29-8836-E87FF970D6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyVisa.Common", "EasyVisa.Common\EasyVisa.Common.csproj", "{968BEAFB-401C-4B29-8836-E87FF970D6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVisa.DataAccessLayer", "EasyVisa.DataAccessLayer\EasyVisa.DataAccessLayer.csproj", "{E0AB1CBD-1215-49D0-A979-98FF3F243590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyVisa.DataAccessLayer", "EasyVisa.DataAccessLayer\EasyVisa.DataAccessLayer.csproj", "{E0AB1CBD-1215-49D0-A979-98FF3F243590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyVisaUI", "EasyVisaUI\EasyVisaUI.csproj", "{5CC3A3F1-CA19-472C-BC03-EC84B966B4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisaTemplate", "VisaTemplate\VisaTemplate.csproj", "{05ECF9D5-B354-4C62-86A4-4BC3BBD72A32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{E0AB1CBD-1215-49D0-A979-98FF3F243590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0AB1CBD-1215-49D0-A979-98FF3F243590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0AB1CBD-1215-49D0-A979-98FF3F243590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC3A3F1-CA19-472C-BC03-EC84B966B4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC3A3F1-CA19-472C-BC03-EC84B966B4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC3A3F1-CA19-472C-BC03-EC84B966B4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC3A3F1-CA19-472C-BC03-EC84B966B4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05ECF9D5-B354-4C62-86A4-4BC3BBD72A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05ECF9D5-B354-4C62-86A4-4BC3BBD72A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05ECF9D5-B354-4C62-86A4-4BC3BBD72A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05ECF9D5-B354-4C62-86A4-4BC3BBD72A32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
